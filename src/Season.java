@@ -3,6 +3,13 @@ import java.util.Date;
 
 public class Season {
 
+    Season (String name, Date startDate, Date endDate){
+        this.setName(name);
+        this.setStartDate(startDate);
+        this.setEndDate(endDate);
+
+    }
+
     private ArrayList<Match> matchs;
     private String name;
     private Date startDate;
