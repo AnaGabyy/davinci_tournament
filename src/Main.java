@@ -9,8 +9,10 @@ public class Main {
 
         Season torneoDaVinci = new Season("Torneo 2022, 2do cuatri", comienzoDeCursada, finDeCursada);
 
-        Match primerParcial = new Match("Aula 116", fechaParcial);
+        Team profesPoo = new Team("Profes POO");
+        Team estudiantesPoo = new Team("Estudiantes POO");
 
+        Match primerParcial = new Match("Aula 116", fechaParcial);
 
 
 
