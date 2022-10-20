@@ -10,8 +10,12 @@ public class Main {
         Season torneoDaVinci = new Season("Torneo 2022, 2do cuatri", comienzoDeCursada, finDeCursada);
 
         Player profeSergio = new Player("Sergio Medina", "GoalKeeper");
+        Player profeSuplente = new Player("Suplente", "Defender");
 
         Team profesPoo = new Team("Profes POO");
+        profesPoo.addPlayer(profeSergio);
+        profesPoo.addPlayer(profeSuplente);
+
         Team estudiantesPoo = new Team("Estudiantes POO");
 
         Match primerParcial = new Match(
