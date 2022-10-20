@@ -9,6 +9,8 @@ public class Main {
 
         Season torneoDaVinci = new Season("Torneo 2022, 2do cuatri", comienzoDeCursada, finDeCursada);
 
+        Player profeSergio = new Player("Sergio Medina", "GoalKeeper");
+
         Team profesPoo = new Team("Profes POO");
         Team estudiantesPoo = new Team("Estudiantes POO");
 
