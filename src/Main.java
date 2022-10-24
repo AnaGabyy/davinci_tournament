@@ -9,14 +9,22 @@ public class Main {
 
         Season torneoDaVinci = new Season("Torneo 2022, 2do cuatri", comienzoDeCursada, finDeCursada);
 
-        Player profeSergio = new Player("Sergio Medina", "GoalKeeper");
-        Player profeSuplente = new Player("Suplente", "Defender");
 
         Team profesPoo = new Team("Profes POO");
-        profesPoo.addPlayer(profeSergio);
-        profesPoo.addPlayer(profeSuplente);
+        profesPoo.addPlayer(new Player("Sergio Medina", "GoalKeeper"));
+        profesPoo.addPlayer(new Player("Suplente", "Defence"));
+        profesPoo.addPlayer(new Player ("Lautaro", "Defence"));
+        profesPoo.addPlayer(new Player ("Bautista", "forward"));
+        profesPoo.addPlayer(new Player ("Julio", "midfielder"));
+
 
         Team estudiantesPoo = new Team("Estudiantes POO");
+        estudiantesPoo.addPlayer(new Player("Kiara", "GoalKeeper"));
+        estudiantesPoo.addPlayer(new Player("Ana", "Defence"));
+        estudiantesPoo.addPlayer(new Player("Gianni", "Defence"));
+        estudiantesPoo.addPlayer(new Player("Angel", "forward"));
+        estudiantesPoo.addPlayer(new Player("Santino", "midfielder"));
+
 
         Match primerParcial = new Match(
                 "Aula 116",
