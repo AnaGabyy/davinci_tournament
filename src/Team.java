@@ -1,3 +1,5 @@
+import com.sun.media.jfxmedia.events.PlayerStateEvent;
+
 import java.util.ArrayList;
 
 public class Team {
@@ -26,5 +28,15 @@ public class Team {
     public void setPlayers(ArrayList<Player> players) {
         this.players = players;
     }
+
+
+    public ArrayList<Player> getPlayers(){
+        return this.players;
+    }
+
+
+
+
 }
+
 
